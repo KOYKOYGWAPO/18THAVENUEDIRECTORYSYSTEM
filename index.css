@@ -12,7 +12,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: var(--padding-8xs-5) var(--padding-smi) var(--padding-8xs-5) 13.5px;
+  padding: var(--padding-8xs-5) var(--padding-smi) var(--padding-8xs-5)
+    var(--padding-sm-5);
   box-sizing: border-box;
 }
 .home-icon {
@@ -42,7 +43,7 @@
   height: 27px;
   flex-direction: row;
   align-items: center;
-  padding: 0 69px 0 0;
+  padding: 0 var(--padding-50xl) 0 0;
   box-sizing: border-box;
   gap: var(--gap-lg);
 }
@@ -80,7 +81,7 @@
   height: 27px;
   flex-direction: row;
   align-items: center;
-  padding: 0 82px 0 0;
+  padding: 0 var(--padding-63xl) 0 0;
   box-sizing: border-box;
   gap: var(--gap-lg);
 }
@@ -115,7 +116,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 0 96px 0 0;
+  padding: 0 var(--padding-77xl) 0 0;
   box-sizing: border-box;
   gap: var(--gap-lg);
 }
@@ -146,12 +147,13 @@
 .list-menu {
   flex-direction: row;
   align-items: center;
-  padding: 9.1px 17.9px 9px var(--padding-lg-1);
+  padding: var(--padding-3xs-1) var(--padding-mid-9) var(--padding-4xs)
+    var(--padding-lg-1);
 }
 .sidebar-content {
   flex-direction: column;
   align-items: flex-start;
-  gap: 36px;
+  gap: var(--gap-17xl);
 }
 .settings-icon {
   height: 27px;
@@ -182,7 +184,7 @@
   height: 27px;
   flex-direction: row;
   align-items: center;
-  padding: 0 92px 0 0;
+  padding: 0 var(--padding-73xl) 0 0;
   box-sizing: border-box;
   gap: var(--gap-lg);
 }
@@ -223,7 +225,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 95px 0 0;
+  padding: 0 var(--padding-76xl) 0 0;
   box-sizing: border-box;
   gap: var(--gap-lg);
   cursor: pointer;
@@ -265,7 +267,7 @@
   border: 0;
   outline: 0;
   font-family: var(--body-1-medium);
-  font-size: 17.5px;
+  font-size: var(--font-size-mid-5);
   background-color: transparent;
   height: 27px;
   flex: 1;
@@ -298,7 +300,7 @@
 .search-bar-container {
   width: 651px;
   flex-direction: column;
-  padding: 5.9px 0 0;
+  padding: var(--padding-7xs-9) 0 0;
 }
 .avatar-icon {
   height: 43.8px;
@@ -385,7 +387,7 @@
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 1px 0 39px;
+  padding: 0 var(--padding-12xs) 0 var(--padding-20xl);
   font-size: var(--font-size-mini-4);
   color: var(--grey-grey-600);
 }
@@ -645,7 +647,8 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-  padding: var(--padding-lg) var(--padding-9xl) var(--padding-12xl) 14px;
+  padding: var(--padding-lg) var(--padding-9xl) var(--padding-12xl)
+    var(--padding-sm);
   gap: var(--gap-xl);
 }
 .content-container {
@@ -1401,7 +1404,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 3px 0 0;
+  padding: 0 var(--padding-10xs) 0 0;
 }
 .price,
 .remaining-quantity {
@@ -1909,7 +1912,7 @@
 }
 .inventory-panel {
   width: 455px;
-  gap: 26px;
+  gap: var(--gap-7xl);
   min-width: 455px;
   flex-shrink: 0;
   debug_commit: f6aba90;
@@ -1937,7 +1940,7 @@
 .content-wrapper {
   align-self: stretch;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--gap-3xs);
   max-width: 100%;
 }
 .content-wrapper-wrapper,
@@ -1961,7 +1964,7 @@
   overflow: hidden;
   flex-direction: row;
   padding: 0 var(--padding-mini) 0 0;
-  gap: 16px;
+  gap: var(--gap-base);
   line-height: normal;
   letter-spacing: normal;
   font-size: var(--body-1-medium-size);
@@ -1998,7 +2001,7 @@
 @media screen and (max-width: 725px) {
   .side-bar {
     padding-top: var(--padding-xl);
-    padding-bottom: 23px;
+    padding-bottom: var(--padding-4xl);
     box-sizing: border-box;
   }
   .calendar-container,

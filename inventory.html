@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./inventory.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="inventory2">
+      <div class="side-bar5">
+        <div class="top7">
+          <div class="top8">
+            <img
+              class="n-1-removebg-preview-1-65"
+              loading="lazy"
+              alt=""
+              src="./public/357785364-703403068466148-3928407472971506086-n--1-removebgpreview-1-6@2x.png"
+            />
+          </div>
+          <div class="list-menu35">
+            <div class="list-menu36">
+              <div class="list-menu37">
+                <div class="content43">
+                  <img
+                    class="home-icon5"
+                    loading="lazy"
+                    alt=""
+                    src="./public/home1.svg"
+                  />
+
+                  <div class="text30">Dashboard</div>
+                </div>
+              </div>
+              <div class="list-menu38" id="listMenuContainer1">
+                <div class="content44">
+                  <img
+                    class="inventory-icon5"
+                    loading="lazy"
+                    alt=""
+                    src="./public/inventory1.svg"
+                  />
+
+                  <div class="text31">Inventory</div>
+                </div>
+              </div>
+              <div class="list-menu39" id="listMenuContainer2">
+                <div class="content45">
+                  <img
+                    class="report-icon5"
+                    loading="lazy"
+                    alt=""
+                    src="./public/report.svg"
+                  />
+
+                  <div class="text32">Reports</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="list-menu40" id="listMenuContainer">
+            <div class="content46">
+              <img
+                class="settings-icon5"
+                loading="lazy"
+                alt=""
+                src="./public/settings.svg"
+              />
+
+              <div class="text33">Settings</div>
+            </div>
+          </div>
+          <div class="list-menu41">
+            <div class="content47" id="contentContainer">
+              <img
+                class="log-out-icon5"
+                loading="lazy"
+                alt=""
+                src="./public/log-out.svg"
+              />
+
+              <div class="text34">Log Out</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="content-area2">
+        <div class="top-bar-parent">
+          <div class="top-bar5">
+            <div class="header-content">
+              <div class="search-bar5">
+                <img class="search-icon5" alt="" src="./public/search.svg" />
+
+                <input
+                  class="search-product-supplier5"
+                  placeholder="Search product, supplier, order"
+                  type="text"
+                />
+              </div>
+            </div>
+            <img
+              class="avatar-icon5"
+              loading="lazy"
+              alt=""
+              src="./public/avatar1@2x.png"
+            />
+          </div>
+          <div class="overall-inventory4">
+            <div class="overview-container">
+              <div class="overall-inventory5">Overall Inventory</div>
+              <div class="inventory-details1">
+                <div class="inventory-categories">
+                  <div class="categories2">Categories</div>
+                  <div class="category-labels3">14</div>
+                  <div class="last-7-days6">Last 7 days</div>
+                </div>
+              </div>
+            </div>
+            <div class="product-stats">
+              <div class="product-stats-container">
+                <div class="stats-divider-container">
+                  <div class="stats-divider-container-child"></div>
+                </div>
+                <div class="total-product2">
+                  <div class="total-products2">Total Products</div>
+                  <div class="product-value1">
+                    <div class="product-value-container">
+                      <div class="product-value-elements">
+                        <div class="product-value-number">868</div>
+                        <div class="div59">
+                          <span>₱</span>
+                          <span class="span14">2500</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="revenue-container">
+                      <div class="last-7-days7">Last 7 days</div>
+                      <div class="revenue4">Revenue</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="top-selling-divider-container">
+                <div class="top-selling-divider"></div>
+              </div>
+              <div class="top-selling4">
+                <div class="top-selling5">Top Selling</div>
+                <div class="top-selling-details1">
+                  <div class="top-selling-metrics1">
+                    <div class="top-selling-period">5</div>
+                    <div class="div60">
+                      <span>₱</span>
+                      <span class="span15">2500</span>
+                    </div>
+                  </div>
+                  <div class="top-selling-metrics2">
+                    <div class="last-7-days8">Last 7 days</div>
+                    <div class="cost4">Cost</div>
+                  </div>
+                </div>
+              </div>
+              <div class="low-stock-divider-container">
+                <div class="low-stock-divider">
+                  <div class="low-stock-divider-child"></div>
+                </div>
+                <div class="low-stocks-group">
+                  <div class="low-stocks2">Low Stocks</div>
+                  <div class="low-stock-labels">2</div>
+                  <div class="not-in-stock2">Not in stock</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="products6">
+            <div class="top9">
+              <div class="products7">Products</div>
+              <div class="product-header-actions">
+                <div class="add-category-container">
+                  <button class="add-category4" id="addCategory">
+                    <div class="add-category5">Add Category</div>
+                  </button>
+                </div>
+                <button class="add-product8" id="addProduct">
+                  <div class="add-product9">Add Product</div>
+                </button>
+                <button class="filter4" id="filter">
+                  <div class="button-base8">
+                    <img
+                      class="filters-lines-icon2"
+                      alt=""
+                      src="./public/filters-lines.svg"
+                    />
+
+                    <div class="filter-label1">Filters</div>
+                  </div>
+                </button>
+                <button class="download2">
+                  <div class="button-base9">
+                    <div class="download-label1">Download all</div>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="product-list-container1">
+              <div class="product-list1">
+                <div class="product-table-header1">
+                  <div class="products8">Products</div>
+                  <div class="buying-price6">Buying Price</div>
+                  <div class="quantity6">Quantity</div>
+                  <div class="threshold-value12">Threshold Value</div>
+                  <div class="expiry-date6">Expiry Date</div>
+                  <div class="availability4">Availability</div>
+                </div>
+              </div>
+              <div class="product-table-body">
+                <div class="product-table-data">
+                  <img
+                    class="product-table-data-child"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-40.svg"
+                  />
+
+                  <div class="product-rows">
+                    <div class="product-row-items">
+                      <img
+                        class="product-row-labels"
+                        loading="lazy"
+                        alt=""
+                        src="./public/vector-40.svg"
+                      />
+
+                      <img
+                        class="product-row-labels1"
+                        loading="lazy"
+                        alt=""
+                        src="./public/vector-40.svg"
+                      />
+
+                      <img
+                        class="product-row-labels2"
+                        loading="lazy"
+                        alt=""
+                        src="./public/vector-40.svg"
+                      />
+
+                      <img
+                        class="product-row-labels3"
+                        loading="lazy"
+                        alt=""
+                        src="./public/vector-40.svg"
+                      />
+
+                      <img
+                        class="product-row-labels4"
+                        loading="lazy"
+                        alt=""
+                        src="./public/vector-40.svg"
+                      />
+
+                      <img
+                        class="product-row-labels5"
+                        loading="lazy"
+                        alt=""
+                        src="./public/vector-40.svg"
+                      />
+
+                      <img
+                        class="product-row-labels6"
+                        loading="lazy"
+                        alt=""
+                        src="./public/vector-40.svg"
+                      />
+
+                      <img
+                        class="product-row-labels7"
+                        loading="lazy"
+                        alt=""
+                        src="./public/vector-40.svg"
+                      />
+
+                      <div class="products-list2">
+                        <div class="product-row-containers">
+                          <div class="product-name6">
+                            <div class="metformin2">Metformin</div>
+                          </div>
+                          <div class="product-price">
+                            <div class="div61">₱430</div>
+                          </div>
+                          <div class="packets36">43 Packets</div>
+                          <div class="packets-wrapper16">
+                            <div class="packets37">12 Packets</div>
+                          </div>
+                          <div class="product-expiry">
+                            <div class="product-availability">11/12/24</div>
+                          </div>
+                          <div class="in-stock10">In- stock</div>
+                        </div>
+                        <div class="product-row-containers1">
+                          <div class="parecetamol-frame">
+                            <div class="parecetamol2">Parecetamol</div>
+                          </div>
+                          <div class="wrapper39">
+                            <div class="div62">₱257</div>
+                          </div>
+                          <div class="packets38">22 Packets</div>
+                          <div class="packets-wrapper17">
+                            <div class="packets39">12 Packets</div>
+                          </div>
+                          <div class="wrapper40">
+                            <div class="div63">21/12/24</div>
+                          </div>
+                          <div class="out-of-stock6">Out of stock</div>
+                        </div>
+                        <div class="product-row-containers2">
+                          <div class="calpol-frame">
+                            <div class="calpol2">Calpol</div>
+                          </div>
+                          <div class="wrapper41">
+                            <div class="div64">₱405</div>
+                          </div>
+                          <div class="packets40">36 Packets</div>
+                          <div class="packets-wrapper18">
+                            <div class="packets41">9 Packets</div>
+                          </div>
+                          <div class="wrapper42">
+                            <div class="div65">5/12/24</div>
+                          </div>
+                          <div class="in-stock11">In- stock</div>
+                        </div>
+                        <div class="product-row-containers3">
+                          <div class="bioflu-frame">
+                            <div class="bioflu2">Bioflu</div>
+                          </div>
+                          <div class="wrapper43">
+                            <div class="div66">₱502</div>
+                          </div>
+                          <div class="packets42">14 Packets</div>
+                          <div class="packets-wrapper19">
+                            <div class="packets43">6 Packets</div>
+                          </div>
+                          <div class="wrapper44">
+                            <div class="div67">8/12/24</div>
+                          </div>
+                          <div class="out-of-stock7">Out of stock</div>
+                        </div>
+                        <div class="product-row-containers4">
+                          <div class="tempra-frame">
+                            <div class="tempra2">Tempra</div>
+                          </div>
+                          <div class="wrapper45">
+                            <div class="div68">₱530</div>
+                          </div>
+                          <div class="packets44">5 Packets</div>
+                          <div class="packets-wrapper20">
+                            <div class="packets45">5 Packets</div>
+                          </div>
+                          <div class="wrapper46">
+                            <div class="div69">9/1/24</div>
+                          </div>
+                          <div class="in-stock12">In- stock</div>
+                        </div>
+                        <div class="product-row-containers5">
+                          <div class="imodium-frame">
+                            <div class="imodium2">Imodium</div>
+                          </div>
+                          <div class="wrapper47">
+                            <div class="div70">₱605</div>
+                          </div>
+                          <div class="packets46">10 Packets</div>
+                          <div class="packets-wrapper21">
+                            <div class="packets47">5 Packets</div>
+                          </div>
+                          <div class="wrapper48">
+                            <div class="div71">9/1/24</div>
+                          </div>
+                          <div class="in-stock13">In- stock</div>
+                        </div>
+                        <div class="product-row-containers6">
+                          <div class="advil-frame">
+                            <div class="advil2">ADVIL</div>
+                          </div>
+                          <div class="wrapper49">
+                            <div class="div72">₱408</div>
+                          </div>
+                          <div class="packets48">23 Packets</div>
+                          <div class="packets-wrapper22">
+                            <div class="packets49">7 Packets</div>
+                          </div>
+                          <div class="wrapper50">
+                            <div class="div73">15/12/24</div>
+                          </div>
+                          <div class="out-of-stock8">Out of stock</div>
+                        </div>
+                        <div class="product-row-containers7">
+                          <div class="claritin-frame">
+                            <div class="claritin2">Claritin</div>
+                          </div>
+                          <div class="wrapper51">
+                            <div class="div74">₱359</div>
+                          </div>
+                          <div class="packets50">43 Packets</div>
+                          <div class="packets-wrapper23">
+                            <div class="packets51">8 Packets</div>
+                          </div>
+                          <div class="wrapper52">
+                            <div class="div75">6/6/24</div>
+                          </div>
+                          <div class="in-stock14">In- stock</div>
+                        </div>
+                        <div class="product-row-containers8">
+                          <div class="mefinamic-frame">
+                            <div class="mefinamic2">MEFINAMIC</div>
+                          </div>
+                          <div class="wrapper53">
+                            <div class="div76">₱205</div>
+                          </div>
+                          <div class="packets52">41 Packets</div>
+                          <div class="packets-wrapper24">
+                            <div class="packets53">10 Packets</div>
+                          </div>
+                          <div class="wrapper54">
+                            <div class="div77">11/11/24</div>
+                          </div>
+                          <div class="low-stock2">Low stock</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-footer">
+                <button class="replace-button4">
+                  <div class="footer-button-label">Previous</div>
+                </button>
+                <div class="details-container">
+                  <div class="details2">
+                    <span>Page </span>
+                    <span class="span16">1</span>
+                    <span> of </span>
+                    <span class="span17">10</span>
+                  </div>
+                </div>
+                <button class="replace-button5">
+                  <div class="text35">Next</div>
+                </button>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var listMenuContainer1 = document.getElementById("listMenuContainer1");
+      if (listMenuContainer1) {
+        listMenuContainer1.addEventListener("click", function (e) {
+          window.location.href = "./inventory.html";
+        });
+      }
+      
+      var listMenuContainer2 = document.getElementById("listMenuContainer2");
+      if (listMenuContainer2) {
+        listMenuContainer2.addEventListener("click", function (e) {
+          // Please sync "Reports Weekly" to the project
+        });
+      }
+      
+      var listMenuContainer = document.getElementById("listMenuContainer");
+      if (listMenuContainer) {
+        listMenuContainer.addEventListener("click", function (e) {
+          // Please sync "Settings" to the project
+        });
+      }
+      
+      var contentContainer = document.getElementById("contentContainer");
+      if (contentContainer) {
+        contentContainer.addEventListener("click", function (e) {
+          // Please sync "Intro Log In" to the project
+        });
+      }
+      
+      var addCategory = document.getElementById("addCategory");
+      if (addCategory) {
+        addCategory.addEventListener("click", function (e) {
+          window.location.href = "./inventory-add-product.html";
+        });
+      }
+      
+      var addProduct = document.getElementById("addProduct");
+      if (addProduct) {
+        addProduct.addEventListener("click", function (e) {
+          window.location.href = "./inventory-add-product.html";
+        });
+      }
+      
+      var filter = document.getElementById("filter");
+      if (filter) {
+        filter.addEventListener("click", function (e) {
+          window.location.href = "inventory-filter.html";
+        });
+      }
+      </script>
+  </body>
+</html>
