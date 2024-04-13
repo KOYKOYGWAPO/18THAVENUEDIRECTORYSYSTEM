@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dashboard-weekly">
+      <div class="side-bar">
+        <div class="sidebar-content">
+          <div class="top">
+            <img
+              class="n-1-removebg-preview-1-6"
+              loading="lazy"
+              alt=""
+              src="./public/357785364-703403068466148-3928407472971506086-n--1-removebgpreview-1-6@2x.png"
+            />
+          </div>
+          <div class="list-menu">
+            <div class="list-menu1">
+              <div class="list-menu2">
+                <div class="content">
+                  <img
+                    class="home-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/home.svg"
+                  />
+
+                  <h2 class="menu-item-caption">Dashboard</h2>
+                </div>
+              </div>
+              <div class="list-menu3" id="listMenuContainer1">
+                <div class="content1">
+                  <img
+                    class="inventory-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/inventory.svg"
+                  />
+
+                  <h2 class="text">Inventory</h2>
+                </div>
+              </div>
+              <div class="list-menu4" id="listMenuContainer2">
+                <div class="content2">
+                  <img
+                    class="report-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/report.svg"
+                  />
+
+                  <h2 class="text1">Reports</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="settings-menu">
+          <div class="list-menu5" id="listMenuContainer">
+            <div class="content3">
+              <img
+                class="settings-icon"
+                loading="lazy"
+                alt=""
+                src="./public/settings.svg"
+              />
+
+              <h2 class="setting-item-caption">Settings</h2>
+            </div>
+          </div>
+          <div class="list-menu6">
+            <div class="content4" id="contentContainer">
+              <img
+                class="log-out-icon"
+                loading="lazy"
+                alt=""
+                src="./public/log-out.svg"
+              />
+
+              <h2 class="text2">Log Out</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="content-wrapper-wrapper">
+        <div class="content-wrapper">
+          <div class="content-container">
+            <div class="top-bar">
+              <div class="search-bar-container">
+                <div class="search-bar">
+                  <img class="search-icon" alt="" src="./public/search.svg" />
+
+                  <input
+                    class="search-product-supplier"
+                    placeholder="Search product, supplier, order"
+                    type="search"
+                  />
+                </div>
+              </div>
+              <img
+                class="avatar-icon"
+                loading="lazy"
+                alt=""
+                src="./public/avatar@2x.png"
+              />
+            </div>
+            <div class="sales-overview">
+              <div class="overview-chart">
+                <div class="chart-container">
+                  <div class="sales-overview1">Sales Overview</div>
+                  <div class="chart-content">
+                    <div class="sales">
+                      <img
+                        class="sales-icon"
+                        loading="lazy"
+                        alt=""
+                        src="./public/sales.svg"
+                      />
+
+                      <div class="sales-chart-footer">
+                        <div class="sales-chart-value">
+                          <div class="div">
+                            <span>₱</span>
+                            <span class="span"> 832</span>
+                          </div>
+                          <div class="sales1">Sales</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="overview-header">
+                <div class="overview-categories"></div>
+              </div>
+              <div class="overview-header1">
+                <div class="revenue">
+                  <img
+                    class="revenue-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/revenue.svg"
+                  />
+
+                  <div class="currency-container">
+                    <div class="currency-symbols">
+                      <div class="div1">
+                        <span>₱</span>
+                        <span class="span1"> 18,300</span>
+                      </div>
+                      <div class="revenue1">Revenue</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="overview-header2">
+                <div class="overview-header-child"></div>
+              </div>
+              <div class="overview-header3">
+                <div class="profit">
+                  <img
+                    class="profit-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/profit.svg"
+                  />
+
+                  <div class="profit-inner">
+                    <div class="parent">
+                      <div class="div2">
+                        <span>₱</span>
+                        <span class="span2"> 868</span>
+                      </div>
+                      <div class="profit1">Profit</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="sales-overview-child"></div>
+              <div class="overview-header4">
+                <div class="cost">
+                  <img
+                    class="cost-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/cost.svg"
+                  />
+
+                  <div class="cost-inner">
+                    <div class="group">
+                      <div class="div3">₹ 17,432</div>
+                      <div class="cost1">Cost</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sales-purchase-panel">
+            <div class="sales-purchase">
+              <div class="calendar-container">
+                <div class="sales-purchase1">Sales & Purchase</div>
+                <div class="frame-parent">
+                  <div class="yearly-wrapper">
+                    <button class="yearly" id="yearly">
+                      <img
+                        class="calendar-icon"
+                        alt=""
+                        src="./public/calendar.svg"
+                      />
+
+                      <div class="yearly-calendar-caption">Yearly</div>
+                    </button>
+                  </div>
+                  <button class="monthly" id="monthly">
+                    <img
+                      class="calendar-icon1"
+                      alt=""
+                      src="./public/calendar.svg"
+                    />
+
+                    <div class="calendar-option-caption">Monthly</div>
+                  </button>
+                  <button class="weekly">
+                    <img
+                      class="calendar-icon2"
+                      alt=""
+                      src="./public/calendar-2.svg"
+                    />
+
+                    <div class="text3">Weekly</div>
+                  </button>
+                </div>
+              </div>
+              <div class="sales-purchase-charts">
+                <div class="sales-purchase-content">
+                  <div class="charts-wrapper">
+                    <div class="div4">60,000</div>
+                    <div class="wrapper">
+                      <div class="div5">50,000</div>
+                    </div>
+                    <div class="div6">40,000</div>
+                    <div class="div7">30,000</div>
+                    <div class="container">
+                      <div class="div8">20,000</div>
+                    </div>
+                    <div class="frame">
+                      <div class="div9">10,000</div>
+                    </div>
+                  </div>
+                  <div class="purchase-chart-container-wrapper">
+                    <div class="purchase-chart-container">
+                      <div class="lines">
+                        <img
+                          class="lines-child"
+                          loading="lazy"
+                          alt=""
+                          src="./public/vector-6.svg"
+                        />
+
+                        <img
+                          class="lines-item"
+                          loading="lazy"
+                          alt=""
+                          src="./public/vector-5.svg"
+                        />
+
+                        <img
+                          class="lines-inner"
+                          loading="lazy"
+                          alt=""
+                          src="./public/vector-4.svg"
+                        />
+
+                        <img
+                          class="vector-icon"
+                          loading="lazy"
+                          alt=""
+                          src="./public/vector-3.svg"
+                        />
+
+                        <img
+                          class="lines-child1"
+                          loading="lazy"
+                          alt=""
+                          src="./public/vector-2.svg"
+                        />
+
+                        <img
+                          class="lines-child2"
+                          loading="lazy"
+                          alt=""
+                          src="./public/vector-1.svg"
+                        />
+
+                        <div class="purchase-chart-grid">
+                          <div class="rectangle-parent">
+                            <div class="frame-child"></div>
+                            <div class="frame-item"></div>
+                          </div>
+                          <div class="rectangle-group">
+                            <div class="frame-inner"></div>
+                            <div class="rectangle-div"></div>
+                          </div>
+                          <div class="rectangle-container">
+                            <div class="frame-child1"></div>
+                            <div class="frame-child2"></div>
+                          </div>
+                          <div class="frame-div">
+                            <div class="frame-child3"></div>
+                            <div class="frame-child4"></div>
+                          </div>
+                          <div class="rectangle-parent1">
+                            <div class="frame-child5"></div>
+                            <div class="frame-child6"></div>
+                          </div>
+                          <div class="rectangle-parent2">
+                            <div class="frame-child7"></div>
+                            <div class="frame-child8"></div>
+                          </div>
+                          <div class="rectangle-parent3">
+                            <div class="frame-child9"></div>
+                            <div class="frame-child10"></div>
+                          </div>
+                          <div class="rectangle-parent4">
+                            <div class="frame-child11"></div>
+                            <div class="frame-child12"></div>
+                          </div>
+                          <div class="rectangle-parent5">
+                            <div class="frame-child13"></div>
+                            <div class="frame-child14"></div>
+                          </div>
+                          <div class="rectangle-parent6">
+                            <div class="frame-child15"></div>
+                            <div class="frame-child16"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="purchase-chart-months">
+                        <div class="purchase-chart-month-labels">
+                          <div class="jan">Jan</div>
+                          <div class="feb">Feb</div>
+                          <div class="mar">Mar</div>
+                          <div class="apr">Apr</div>
+                          <div class="may">May</div>
+                          <div class="jun">Jun</div>
+                          <div class="jul">Jul</div>
+                          <div class="aug">Aug</div>
+                          <div class="may1">May</div>
+                          <div class="jun1">Jun</div>
+                        </div>
+                      </div>
+                      <div class="sales-chart-container-wrapper">
+                        <div class="sales-chart-container">
+                          <div class="sales-chart-content">
+                            <div class="sales-chart-details">
+                              <div class="sales-chart-shape"></div>
+                            </div>
+                            <div class="purchase">Purchase</div>
+                          </div>
+                          <div class="purchase-chart-details">
+                            <div class="purchase-chart-content">
+                              <div class="purchase-chart-shape"></div>
+                            </div>
+                            <div class="sales2">Sales</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="inventory-panel">
+              <div class="top-selling-stock">
+                <div class="inventory-title">
+                  <div class="top-selling-stock1">Top Selling Stock</div>
+                </div>
+                <div class="inventory-navigation-parent">
+                  <img
+                    class="inventory-navigation-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-44.svg"
+                  />
+
+                  <div class="inventory-table">
+                    <div class="table-header">
+                      <div class="table-header-labels">
+                        <div class="name">Name</div>
+                      </div>
+                      <div class="table-header-labels1">
+                        <div class="sold-quantity">Sold Quantity</div>
+                      </div>
+                      <div class="remaining-quantity">Remaining Quantity</div>
+                      <div class="price-wrapper">
+                        <div class="price">Price</div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    class="inventory-navigation-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-44.svg"
+                  />
+                </div>
+                <div class="inventory-items">
+                  <div class="inventory-item-details">
+                    <div class="surf-excel">Surf Excel</div>
+                    <div class="item-placeholder">
+                      <div class="div10">30</div>
+                    </div>
+                    <div class="wrapper1">
+                      <div class="div11">12</div>
+                    </div>
+                    <div class="div12">
+                      <span>₱</span>
+                      <span class="span3">100</span>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="top-selling-stock-child"
+                  loading="lazy"
+                  alt=""
+                  src="./public/vector-42.svg"
+                />
+
+                <div class="inventory-items-parent">
+                  <div class="inventory-items1">
+                    <div class="rin-parent">
+                      <div class="rin">Rin</div>
+                      <div class="wrapper2">
+                        <div class="div13">21</div>
+                      </div>
+                      <div class="wrapper3">
+                        <div class="div14">15</div>
+                      </div>
+                      <div class="div15">
+                        <span>₱</span>
+                        <span class="span4">207</span>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    class="frame-child17"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-44.svg"
+                  />
+                </div>
+                <div class="inventory-items2">
+                  <div class="parle-g-parent">
+                    <div class="parle-g">Parle G</div>
+                    <div class="wrapper4">
+                      <div class="div16">19</div>
+                    </div>
+                    <div class="wrapper5">
+                      <div class="div17">17</div>
+                    </div>
+                    <div class="div18">
+                      <span>₱</span>
+                      <span class="span5">105</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="low-quantity-stock">
+                <div class="low-quantity-stock1">Low Quantity Stock</div>
+                <div class="low-quantity-stock-inner">
+                  <div class="frame-group">
+                    <div class="frame-container">
+                      <div class="parecetamol-biogesic-parent">
+                        <div class="parecetamol-biogesic">
+                          Parecetamol Biogesic
+                        </div>
+                        <div class="remaining-quantity1">
+                          Remaining Quantity : 10 Packet
+                        </div>
+                      </div>
+                      <div class="badge">
+                        <div class="badge1">
+                          <div class="text4">Low</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="frame-parent1">
+                      <div class="mefenamic-acid-parent">
+                        <div class="mefenamic-acid">MEFENAMIC ACID</div>
+                        <div class="remaining-quantity2">
+                          Remaining Quantity : 15 Packet
+                        </div>
+                      </div>
+                      <div class="badge2">
+                        <div class="badge3">
+                          <div class="text5">Low</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="frame-parent2">
+                      <div class="bupropen-advil-parent">
+                        <div class="bupropen-advil">BUPROPEN ADVIL</div>
+                        <div class="remaining-quantity3">
+                          Remaining Quantity : 15 Packet
+                        </div>
+                      </div>
+                      <div class="badge4">
+                        <div class="badge5">
+                          <div class="text6">Low</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var listMenuContainer1 = document.getElementById("listMenuContainer1");
+      if (listMenuContainer1) {
+        listMenuContainer1.addEventListener("click", function (e) {
+          // Please sync "Inventory" to the project
+        });
+      }
+      
+      var listMenuContainer2 = document.getElementById("listMenuContainer2");
+      if (listMenuContainer2) {
+        listMenuContainer2.addEventListener("click", function (e) {
+          // Please sync "Reports Weekly" to the project
+        });
+      }
+      
+      var listMenuContainer = document.getElementById("listMenuContainer");
+      if (listMenuContainer) {
+        listMenuContainer.addEventListener("click", function (e) {
+          // Please sync "Settings" to the project
+        });
+      }
+      
+      var contentContainer = document.getElementById("contentContainer");
+      if (contentContainer) {
+        contentContainer.addEventListener("click", function (e) {
+          // Please sync "Intro Log In" to the project
+        });
+      }
+      
+      var yearly = document.getElementById("yearly");
+      if (yearly) {
+        yearly.addEventListener("click", function (e) {
+          // Please sync "Dashboard Yearly" to the project
+        });
+      }
+      
+      var monthly = document.getElementById("monthly");
+      if (monthly) {
+        monthly.addEventListener("click", function (e) {
+          // Please sync "Dashboard Monthly" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
